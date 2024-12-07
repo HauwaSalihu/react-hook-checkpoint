@@ -62,6 +62,7 @@ function AddMovies(props) {
       posterUrl: null,
       description: null,
     });
+
     setIsModalOpen(false);
   };
   const handleCancel = () => {
@@ -118,24 +119,24 @@ function AddMovies(props) {
             // onChange={handleRace}
             options={[
               {
-                value: "5 star",
-                label: "5 star",
+                value: "5 stars",
+                label: "5 stars",
               },
               {
-                value: "4 star",
-                label: "4 star",
+                value: "4 stars",
+                label: "4 stars",
               },
               {
-                value: "3 star",
-                label: "3 star",
+                value: "3 stars",
+                label: "3 stars",
               },
               {
-                value: "2 star",
-                label: "2 star",
+                value: "2 stars",
+                label: "2 stars",
               },
               {
-                value: "1 star",
-                label: "1 star",
+                value: "1 stars",
+                label: "1 stars",
               },
             ]}
           />
